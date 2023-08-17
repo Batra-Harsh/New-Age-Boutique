@@ -1,0 +1,137 @@
+header
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+.footer_lvl1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    align-items: center;
+}
+.header-mid a
+{
+    padding: 0px 16px;
+}
+.header-mid
+{
+    padding-right: 30px;
+}
+/*.header-left   
+{
+    padding-left: 10px;
+}*/
+.header-right
+{
+    padding-right: 10px;
+}
+header a, footer a
+{
+    text-decoration: none;
+    color : white;
+}
+.tail
+{
+    text-align: center;
+    border: 2px solid gray;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer a:hover
+{
+    background-color: orange;
+}
+.header-mid a:hover
+{
+    background-color: orange;
+    padding: 6px 16px;
+}
+.header-right a:hover
+{
+    color : black;
+    padding : 6px 0;
+    background-color: white;
+}
+
+.footer-right a
+{
+    padding: 10px;
+    
+}
+.body-container, .Registeration-form, .login-form, .mform
+{
+    background-color: #e6e6fa;
+    margin: 0px;
+    padding: 20px;
+}
+body
+{
+    padding : 0% 0.2%;
+}
+.social
+{
+    text-align:justify;
+    color: gold;
+}
+.chart_image
+{
+    align-items: center;
+}
+.map
+{
+    width: 45%;
+    margin: 2.5%;
+   /* height: 43vh;*/
+    border: 2px solid black;
+    height: auto;
+}
+.map iframe
+{
+    width: 100%;
+    height: 100%;
+}
+.contact_form
+{
+    width: 45%;
+    margin: 2.5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 5px solid gold;
+    padding: 5px 0px;
+    background-color: black;
+    color: white;
+}
+tr td
+{
+    text-align: right;
+    justify-items: center;
+    padding: 0px 5px;
+}
+.Location_page
+{
+    display: flex;
+}
+select
+{
+    width: fit-content;
+}
+.mform
+{
+    display: flex;
+    justify-content: center;
+}
+.mform p
+{
+    width: 100%;    
+}
